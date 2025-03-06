@@ -13,7 +13,8 @@ namespace ConsoleApp1
         }
         static void Attack(int value)
         {
-
+            int hp = 10;
+            hp -= value;
         }
     }
 }
