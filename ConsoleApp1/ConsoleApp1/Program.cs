@@ -11,9 +11,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
         }
-        static void Attack(int value)
+        static void Attack(Character target) 
+        { 
+        }
+        public class Character
         {
 
         }
     }
+
 }
