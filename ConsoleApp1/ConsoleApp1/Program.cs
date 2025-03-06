@@ -12,11 +12,13 @@ namespace ConsoleApp1
         {
         }
         static void Attack(Character target) 
-        { 
+        {
+            target.TakeDamage(10);
         }
         public class Character
         {
-
+            int HP;
+            public void TakeDamage(int val) => HP -= val;
         }
     }
 
