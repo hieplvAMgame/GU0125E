@@ -11,15 +11,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
         }
-        static void Attack(Character target) 
+        static void Attack(int value)
         {
-            target.TakeDamage(10);
-        }
-        public class Character
-        {
-            int HP;
-            public void TakeDamage(int val) => HP -= val;
+
         }
     }
-
 }
